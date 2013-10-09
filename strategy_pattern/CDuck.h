@@ -3,15 +3,15 @@
 //              by samael
 //
 
-
 #include <iostream>
+// 鸭子的飞行接口
 class IFlyBehavior
 {
  public:
   virtual void fly() = 0;
 };
 
-
+// 鸭子的叫声接口
 class IQuackBehavior
 {
  public:
